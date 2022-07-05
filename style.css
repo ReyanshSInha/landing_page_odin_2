@@ -39,7 +39,7 @@ ul{
 
 .section1{
     background-color: #1F2937;
-    border: 2px solid red;
+
     display: flex;
 }
 
@@ -63,7 +63,7 @@ ul{
 
 .left-side{
     width: 30%;
-    border: 2px solid red;
+ 
     word-wrap: break-word;
     margin-left: 140px;
     padding: 15px;
@@ -72,7 +72,7 @@ ul{
 }
 
 .right-side{
-    border: 2px solid red;
+  
     margin-left: 10%;
     display: flex;
     flex: 1;
@@ -83,4 +83,38 @@ ul{
     margin-bottom: 5%;
     background-color: gray;
     align-items: center;   
+}
+
+.section2{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.section2 h1{
+
+    text-align: center;
+    margin-top: 2%;
+}
+
+.boxes{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 5%;
+}
+
+.box{
+
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.content{
+    width: 100px;
+    padding: 5px;
+    text-align: center;
 }
