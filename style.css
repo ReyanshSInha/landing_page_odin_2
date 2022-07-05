@@ -105,6 +105,8 @@ ul{
     justify-content: center;
     gap: 10%;
     margin-bottom: 5%;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 .box{
@@ -136,4 +138,48 @@ ul{
 .quote h3{
     margin-left: 70%;
     margin-top: 20px;
+}
+
+
+.section4{
+    padding: 10%;
+}
+
+.section4 .call_to_action{
+    padding: 4%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.section4 .left_sec{
+    color: white;
+}
+
+.section4 .right_sec{
+  
+    align-self: center;
+
+} 
+
+.section4 button{
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    color: white;
+}
+
+.footer p{
+    padding: 10px;
 }
