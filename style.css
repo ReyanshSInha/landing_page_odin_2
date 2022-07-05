@@ -76,10 +76,12 @@ ul{
     margin-left: 10%;
     display: flex;
     flex: 1;
+    
     justify-content: center;
     margin-top: 5%;
     color: white;
     margin-right: 140px;
+    border-radius: 20px;
     margin-bottom: 5%;
     background-color: gray;
     align-items: center;   
@@ -117,4 +119,21 @@ ul{
     width: 100px;
     padding: 5px;
     text-align: center;
+}
+
+.quote{
+    background-color: rgba(128, 128, 128, 50%);
+
+    padding: 8%;
+}
+
+.quote p{
+    
+    font-size: 30px;
+    margin: 0 10%;
+}
+
+.quote h3{
+    margin-left: 70%;
+    margin-top: 20px;
 }
